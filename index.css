@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0px 20px;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    border: 1px solid black;
+}
+header{
+    /* padding: 23px 0px; */
+    display: flex;   
+}
+.logo-section{
+    display: flex;
+}
+.logo-container{
+    width: 62px;
+    height: 62px;
+    /* border: 1px solid green; */
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+.burger-menu-container{
+    width: 24px;
+    height: 24px;
+}
+.burger-menu-container img {
+    width: 100%;
+    height: 100%;
+}
+.name-section{
+    font-family: "Hepta Slab", serif;
+}
+.name-section>:first-child{
+    font-size: 14px;
+    font-weight: bold;  
+}
